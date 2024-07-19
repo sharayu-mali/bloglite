@@ -54,7 +54,7 @@ export default function HomeScreen() {
     //     <ThemedText type="subtitle">HEllo Worldddddddddddddddddddddddddddddddddddddddd</ThemedText>
     //   </ThemedView>
     // </ParallaxScrollView>
-      <SignUp/>
+      <Login/>
       // <Home/>
 
   );

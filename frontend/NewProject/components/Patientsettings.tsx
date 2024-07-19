@@ -16,12 +16,17 @@ import { isEnabled } from 'react-native/Libraries/Performance/Systrace';
     //  }
 
   return (
+    
     <View style={styles.container}>
-    <Text>dkfjbdkjnfjkngkj</Text>
-    {/* <Image
+    <Image
         source={require('../assets/images/patient.jpg')}
         style={styles.image}
-      /> */}
+      />
+    <Text style={styles.title}>Damon</Text>
+    <View style={styles.main}>
+        <Text style={styles.label}>Daliy Tasks</Text>
+        <Icons name="alert-circle" size={30} color={'red'}/>
+        </View>
     </View>
 
     
@@ -31,16 +36,16 @@ import { isEnabled } from 'react-native/Libraries/Performance/Systrace';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    // justifyContent: 'center',
     alignItems:'center',
     paddingHorizontal: 20,
     paddingVertical: 50,
-backgroundColor:'balck'
   },
   image: {
     width: 200,
     height: 200,
     resizeMode: 'cover', // or 'contain', 'stretch', etc.
+    borderRadius:200,
   },
   navbar:{
     display:'flex',
@@ -68,10 +73,10 @@ backgroundColor:'balck'
     fontSize: 18,
   },
   title: {
-    fontSize: 33,
-    fontWeight: 'bold',
+    fontSize: 23,
+    fontWeight: '400',
     textAlign:'center',
-    marginBottom:200
+    marginTop:20
   },
   username:{
     fontSize:33,
